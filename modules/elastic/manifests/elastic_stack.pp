@@ -8,7 +8,7 @@ class elastic::elastic_stack {
   notify { 'Hello World': }
 
   file { '/tmp/elastic.txt':
-    ensure => 'present',
+    ensure  => 'present',
     content => "This is an elastic search file \n"
   }
 }
