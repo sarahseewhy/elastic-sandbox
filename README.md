@@ -45,6 +45,10 @@ However, I stopped because there were a couple of provisioning choices I wasn't 
 
 This approach did not work. It required heavier provisioning than I believe is necessary, especially if the elastic modules available on Puppet Forge could accomplish much of the basic configuration (e.g., Java, the `elasticsearch.repo`).
 
+## Experiment 4
+
+Use the [elastic modules](https://forge.puppet.com/elastic) on Puppet Forge to provision the CentOS 7 docker image.
+
 ## Resources
 
 This project is based on the following resources:
