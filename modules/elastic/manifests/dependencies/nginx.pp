@@ -11,4 +11,10 @@ class elastic::dependencies::nginx {
   package { 'nginx':
     ensure  => 'latest',
   }
+
+  service {'nginx':
+    enable => 'true',
+    ensure => 'running',
+  }
+
 }
