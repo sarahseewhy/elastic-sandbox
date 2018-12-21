@@ -4,4 +4,5 @@
 #
 class elastic {
   include elastic::elastic_stack
+  include elastic::dependencies::java
 }
