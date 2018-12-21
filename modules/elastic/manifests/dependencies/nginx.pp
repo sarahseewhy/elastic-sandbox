@@ -13,8 +13,8 @@ class elastic::dependencies::nginx {
   }
 
   service {'nginx':
-    enable => 'true',
     ensure => 'running',
+    enable => true,
   }
 
 }
