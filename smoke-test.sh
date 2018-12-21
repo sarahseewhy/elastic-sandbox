@@ -31,6 +31,6 @@ if [[ ${DOCKER_EXIT_CODE} -eq 2 ]]; then
 fi
 
 # Stop the container
-docker stop ${CONTAINER_NAME} > /dev/null
+#docker stop ${CONTAINER_NAME} > /dev/null
 # Remove all untagged images (i.e. everything except the 'latest' image)
-docker rmi $(docker images | grep "^<none>" | awk '{print $3}') 2>&1 > /dev/null
+#docker rmi $(docker images | grep "^<none>" | awk '{print $3}') 2>&1 > /dev/null
